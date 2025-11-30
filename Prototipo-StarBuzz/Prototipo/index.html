@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarBuzz</title>
+    <link rel="icon" href="imagens/favicon.ico" type="image/-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="script" href="index.js">
+</head>
+<body>
+    <header>
+        <nav class="topbar">
+            <div class="logo">
+                <a href="#"><img src="imagens/StarBuzz white.png" alt="StarBuzz"></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#courses">Cursos</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                    <li><a href="login.html">Entrar</a></li>
+                </ul>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home">
+            <div class="hero">
+                <video autoplay muted loop id="heroVideo">
+                    <source src="imagens/video.mp4" type="video/mp4">
+                    Seu navegador não suporta o elemento de vídeo.
+                </video>
+                <div class="hero-content">
+                    <h1>Bem-vindo a <span class="colorida">StarBuzz</span></h1>
+                    <p>Os melhores cursos de programação para você alcançar seus objetivos.</p>
+                    <a href="#courses" class="btn-hero">Ver Cursos</a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="courses">
+            <h2>Cursos mais Populares</h2>
+            <div class="course-list">
+                <div class="course">
+                    <img src="imagens/Htmlcss.png" width="1000" height="100" alt="Curso 1">
+                    <h3 style="color: white;">Curso de HTML e CSS</h3>
+                    <p style="color: white;">Aprenda HTML e CSS do zero e construa sites incríveis.</p>
+                    <button>Saiba Mais</button>
+                </div>
+                <div class="course">
+                    <img src="imagens/js.png" width="100" height="100" alt="Curso 2">
+                    <h3 style="color: white;">Curso de JavaScript</h3>
+                    <p style="color: white;">Domine JavaScript e crie aplicações web dinâmicas.</p>
+                    <button>Saiba Mais</button>
+                </div>
+                <div class="course">
+                    <img src="imagens/Python.png" width="100" height="100" alt="Curso 3">
+                    <h3 style="color: white;">Curso de Python</h3>
+                    <p style="color: white;">Domine Python e crie de aplicativos web, análise de dados e desenvolvimento de jogos.</p>
+                    <button>Saiba Mais</button>
+                </div>
+            </div>
+        </section>
+        
+        <section id="about">
+            <h2>Sobre Nós</h2>
+            <p>Somos uma plataforma dedicada a oferecer os melhores cursos de programação para você se destacar no mercado de trabalho.</p>
+        </section>
+        
+        <section id="contact">
+            <h2>Contato</h2>
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>Sobre</h3>
+                <p>Somos uma plataforma de cursos de programação focada em fornecer educação de alta qualidade para desenvolvedores de todos os níveis.</p>
+            </div>
+            <div class="footer-section links">
+                <h3>Links Rápidos</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#courses">Cursos</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-section social">
+                <h3>Siga-nos</h3>
+                <a href="#"><img src="imagens/Instagram.png" width="30" height="30" alt="Instagram"></a>
+                <a href="#"><img src="imagens/Twitter.png" width="30" height="30"alt="Twitter"></a>
+                <a href="#"><img src="imagens/Facebook.png" width="30" height="30" alt="Facebook"></a>
+            </div>
+        </div>
+        <p>&copy; 2024 StarBuzz. Todos os direitos reservados.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
