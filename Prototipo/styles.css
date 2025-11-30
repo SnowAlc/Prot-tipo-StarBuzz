@@ -1,4 +1,4 @@
-/* Reset básico */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ body {
     color: white;
 }
 
-/* Top Bar */
+
 header {
     background: #272727;
     color: white;
@@ -63,7 +63,6 @@ header .menu ul li a:hover {
     transition: 0.4s;
 }
 
-/* Hero Section */
 .hero {
     background: url('images/hero-background.jpg') no-repeat center center/cover;
     color: white;
@@ -98,7 +97,6 @@ header .menu ul li a:hover {
     background: white;
 }
 
-/* Main Section */
 main {
     padding: 20px;
     max-width: 1200px;
@@ -162,7 +160,6 @@ button:hover {
     background:  #8b0000;
 }
 
-/* Contact Form */
 form {
     display: flex;
     flex-direction: column;
@@ -184,7 +181,6 @@ form button {
     align-self: flex-start;
 }
 
-/* Footer */
 footer {
     background: #272727;
     color: white;
@@ -243,7 +239,6 @@ footer {
     
 }
 
-/* Responsivo */
 @media (max-width: 768px) {
     header .menu {
         display: none;
@@ -304,9 +299,7 @@ footer {
     }
 }
 
-/* styles.css */
 
-/* Estilização da página de login/cadastro */
 .auth-container {
   max-width: 400px;
   margin: 100px auto;
@@ -364,7 +357,6 @@ footer {
   text-decoration: underline;
 }
 
-/* styles.css */
 .hero {
     position: relative;
     display: flex;
